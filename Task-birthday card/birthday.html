@@ -12,21 +12,22 @@
 				margin-right: auto;
 			}
 			.mul{
-				left: 50%;
+				grid-column-start: center;
      			display: grid;
 				grid-template-columns: repeat(3, 1fr);
-				grid-gap: 30px;
 				justify-content: center;
 				place-items: center;
 			}
 			.box {
-			position: relative;
-			height: 150px;
-			width: 150px;
-			margin-top: 123.3333333333px;
-			background-color: darkgreen;
-			border-bottom-left-radius: 5%;
-			border-bottom-right-radius: 5%;
+				position: relative;
+				height: 150px;
+				width: 150px;
+				display: flex;
+				align-items: center;
+				margin-top: 120px;
+				background-color: darkgreen;
+				border-bottom-left-radius: 5%;
+				border-bottom-right-radius: 5%;
 
 			}
 			.box::after {
@@ -212,7 +213,7 @@
 			        <div class="rib"></div>   
 			    </div>
 			</div>
-			<div class="box b1">
+			<div class="box">
 			    <div class="cap">       
 			        <div class="rib"></div>   
 			    </div>
